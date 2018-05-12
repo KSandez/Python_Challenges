@@ -2,7 +2,7 @@ import os
 import csv
 
 # Files to Load
-csvfile = "budget_data_1.csv"
+csvfile = "budget_data_2.csv"
 
 # Variables to Track
 Total_Months = 0
@@ -67,7 +67,7 @@ with open(csvfile) as Revenue_data:
     #I googled how to put comma separator in for every thousands in python woohoo!
 
 #--------------------------------------------------------------
-output_path = os.path.join("bank_analysis_1.txt")
+output_path = os.path.join("bank_analysis_2.txt")
 
 # Open the file using "write" mode. Specify the variable to hold the contents
 with open(output_path, "w") as txt_file:
